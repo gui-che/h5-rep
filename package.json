@@ -1,0 +1,26 @@
+{
+	"name": "h5-rep",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:gui-che/h5-rep.git",
+	"author": "洪小迪 <hongxiaodi459@pingan.com.cn>",
+	"scripts": {
+		"start": "git add . && git commit -m '[compile]' && git pull && git push"
+	},
+	"dependencies": {
+		"classnames": "^2.2.1",
+		"lodash.clonedeep": "^4.5.0",
+		"lodash.throttle": "^4.1.1",
+		"node-xlsx": "^0.12.1",
+		"normalize.css": "^8.0.0",
+		"pinyin": "^2.8.3",
+		"prop-types": "^15.6.2",
+		"jsbn": "^1.1.0",
+		"randomcolor": "^0.5.3",
+		"react-hold": "^0.2.1",
+		"rmc-feedback": "^2.0.0",
+		"rmc-notification": "^1.0.0",
+		"vanilla-lazyload": "8.17.0"
+	},
+	"license": "MIT"
+}
